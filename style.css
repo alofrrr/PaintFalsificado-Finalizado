@@ -1,0 +1,300 @@
+
+@font-face {
+  font-family: gartic;
+  src: url('Anja\ Eliane.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: bubbleShine;
+  src: url('BubbleShine.otf') format('truetype');
+
+}
+:root{
+  --font: "gartic", serif;
+  --font: "bubbleShine", serif;
+
+}
+ footer{
+   text-align: center;
+   margin: 0%;
+ }
+
+#titulo{
+  text-align: center;
+ font-family: gartic;
+  font-size: 30px;
+  margin: 0%;
+  color: rgb(255, 255, 0);
+  -webkit-text-stroke-width: 1px; /* largura da borda */
+  -webkit-text-stroke-color:  rgb(3, 3, 3); /* cor da borda */
+ 
+}
+
+#titulo > h1 {
+  margin: 0%; display: inline;
+}
+.teste{
+  color: rgb(109, 226, 255);
+}
+
+#download {
+  background:    #49a7f3;
+  border-radius: 11px;
+  border: 1px solid #49a7f3;
+  box-shadow:    0 3px #ffff00;
+  width:         150px;
+  height:        50px;
+  color:         #fffefe;
+  display:       inline-block;
+font-family: bubbleShine;
+font-size: 18px;
+  text-align:    center;
+  text-shadow:   1px 1px #000000;
+ margin: 3%;
+ margin-top: 10%;
+}
+body{
+  background-color: #49a7f3;
+}
+#tela{
+    width: 750px;
+    height: 550px;
+    border: 2px solid;
+    background-color: white;
+    margin: 2%;
+    border-radius: 4px;
+}
+.botoes{
+  border: 2px solid;
+  border-radius: 4px;
+  width: 10rem;
+  height: 550px;
+  align-items: center;
+  margin: 2%;
+  margin-right: 2%;
+  background-color: rgb(253, 253, 253);
+  position: relative;
+}
+
+.botoes > p {
+  text-align: center;
+  font-family: bubbleShine;
+  font-size: 22px;
+  margin: 4%;
+}
+
+
+.container{
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  margin-left: 16%;
+  margin-right: 19.5%;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #fff677;
+  border-radius: 2%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 95%;
+  height: 12px;
+  background: white;
+  outline: none;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 40px;
+  background: white;
+  cursor: pointer;
+  border: 3px solid black;
+  border-radius: 4px;
+}
+
+.botao {
+  background: url("eraser-solid.svg");
+  height: 60px;
+  width: 60px;
+  border: white;
+  align-items: center;
+  margin-left: 35%;
+}
+
+#rosa{
+background:    #ff1493;
+border:        1px solid black;
+border-radius: 5px;
+width:         35px;
+height:        35px;
+color:         #ff1493;
+display:       inline-block;
+text-align:    center;
+margin: 3px;
+}
+
+#preto{
+  background:    black;
+  border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:         black;
+  display:       inline-block;
+  text-align:    center;
+  margin-left: 1.4rem;
+}
+#cinza{
+  background:    #808080;
+  border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:         #808080;
+  display:       inline-block;
+  text-align:    center;
+  margin: 3px;
+}
+#branco{
+  background:    white;
+  border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:         white;
+  display:       inline-block;
+  text-align:    center;
+}
+
+#roxo{
+  background:    #A020F0;
+border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:         #A020F0;
+  display:       inline-block;
+  text-align:    center;
+  margin-left: 1.4rem;
+}
+
+#azul{
+  background:    #0000FF;
+  border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:         #0000FF;
+  display:       inline-block;
+  text-align:    center;
+  margin: 3px;
+}
+#indigo{
+  background:    #4B0082;
+  border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:         #4B0082;
+  display:       inline-block;
+  text-align:    center;
+  margin-left: 1.4rem;
+}
+
+#azulClaro{
+  background:    #00BFFF;
+  border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:         #00BFFF;
+  display:       inline-block;
+  text-align:    center;
+}
+
+#rosaClaro{
+  background:    #FF69B4;
+  border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:         #FF69B4;
+  display:       inline-block;
+  text-align:    center;
+}
+
+#vermelho{
+  background:    #FF0000;
+  border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:        #FF0000;
+  display:       inline-block;
+  text-align:    center;
+  margin: 3px;
+}
+
+#laranja{
+  background:    #FF8C00;
+  border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:         #FF8C00;
+  display:       inline-block;
+  text-align:    center;
+}
+#amarelo{
+  background:    #FFFF00;
+  border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:         #FFFF00;
+  display:       inline-block;
+  text-align:    center;
+}
+
+#marrom{
+  background:    #A52A2A;
+  border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:         #A52A2A;
+  display:       inline-block;
+  text-align:    center;
+  margin-left: 1.4rem;
+}
+
+#verde{
+  background:    #228B22;
+  border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:         #228B22;
+  display:       inline-block;
+  text-align:    center;
+  margin-left: 1.4rem;
+}
+
+#verdeClaro{
+  background:    #90EE90;
+  border:        1px solid black;
+  border-radius: 5px;
+  width:         35px;
+  height:        35px;
+  color:         #90EE90;
+  display:       inline-block;
+  text-align:    center;
+  margin: 3px;
+}
+

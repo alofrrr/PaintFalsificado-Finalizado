@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+    <title>Paint Falsificado</title>
+</head>
+
+<body>
+    <header id="titulo">
+        <h1 class="teste">Pa</h1><h1>int Falsifi</h1><h1 class="teste">cado</h1>
+    </header>
+
+
+    <div class="container">
+        <canvas id="tela"> </canvas>
+
+        <form class="cores">
+
+            <div class="botoes">
+
+                <p>Cores</p>
+                <div>
+                    <input type="button" value="Preto" id="preto">
+                    <input type="button" value="Cinza" id="cinza">
+                    <input type="button" value="Branco" id="branco">
+                </div>
+                <div>
+                    <input type="button" value="indigo" id="indigo">
+                    <input type="button" value="Azul" id="azul">
+                    <input type="button" value="Azul Claro" id="azulClaro">
+                </div>
+                <div>
+                    <input type="button" value="Roxo" id="roxo">
+                    <input type="button" value="Rosa" id="rosa">
+                    <input type="button" value="Rosa Claro" id="rosaClaro">
+
+                </div>
+                <div>
+                    <input type="button" value="Marrom" id="marrom">
+                    <input type="button" value="Vermelho" id="vermelho">
+                    <input type="button" value="Laranja" id="laranja">
+                </div>
+                <input type="button" value="Verde" id="verde">
+                <input type="button" value="Verde Claro" id="verdeClaro">
+                <input type="button" value="Amarelo" id="amarelo">
+
+                <p> Espessura do Pincel</p>
+                <div>
+
+                    <input class="slider" type="range" id="espessura" min="1" max="70" value="5">
+                </div>
+                <p> Opacidade </p>
+                <input class="slider" type="range" id="opacidade" min="0.1" max="1.0" value="1.0" step="0.1">
+
+
+                <p>Borracha</p>
+                
+
+                    <input type="button" class="botao" id="borracha">
+
+                    <input type="button" value="Salve sua obra de arte!" id="download">
+                
+            </div>
+        </form>
+    </div>
+
+<footer>
+    <p>Desenvolvido por Ana Laura Oliveira </p>
+</footer>
+
+
+
+
+</body>
+
+</html>
