@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const baixando = document.querySelector("#download");
     baixando.addEventListener('click', download);
 
-   // document.querySelector("button").addEventListener("click", download1);
+  
 
     contexto.lineWidth = 5;
     contexto.strokeStyle = "black";
