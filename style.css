@@ -23,7 +23,7 @@
 #titulo{
   text-align: center;
  font-family: gartic;
-  font-size: 30px;
+  font-size: 35px;
   margin: 0%;
   color: rgb(255, 255, 0);
   -webkit-text-stroke-width: 1px; /* largura da borda */
@@ -41,46 +41,82 @@
 #download {
   background:    #49a7f3;
   border-radius: 11px;
-  border: 1px solid #49a7f3;
+  border: 2px solid #000000;
   box-shadow:    0 3px #ffff00;
-  width:         150px;
-  height:        50px;
+  width:         200px;
+  height:        60px;
   color:         #fffefe;
-  display:       inline-block;
-font-family: bubbleShine;
-font-size: 18px;
+  display:       flex;
+  font-family: bubbleShine;
+  font-size: 24px;
   text-align:    center;
   text-shadow:   1px 1px #000000;
- margin: 3%;
- margin-top: 10%;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  cursor: pointer;
+
 }
 body{
   background-color: #49a7f3;
+  margin: 24%;
+  margin-top: 0.5%;
+  margin-bottom: 0%;
 }
+
+@media only screen and (max-device-width: 1280px) {
+  body{
+    margin: 19%;
+    margin-top: 0.5%;
+   margin-bottom: 0%;
+  }
+
+  #titulo{
+    font-size: 20px;
+  }
+
+  #download{
+    width:200px;
+    height:45px;
+  }
+
+  #tela{
+  
+   margin-top: 1%;
+   margin-bottom: 1%;
+
+}
+ footer{
+   margin-top: 0%;
+ }
+}
+
 #tela{
-    width: 750px;
-    height: 550px;
+    width: 600px;
+    height: 400px;
     border: 2px solid;
     background-color: white;
-    margin: 2%;
+    margin: 0.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
     border-radius: 4px;
 }
 .botoes{
   border: 2px solid;
   border-radius: 4px;
-  width: 10rem;
-  height: 550px;
-  align-items: center;
-  margin: 2%;
-  margin-right: 2%;
+  width: 8rem;
+  height: 370px;
+  margin-top: 0%;
   background-color: rgb(253, 253, 253);
-  position: relative;
+  position:inherit;
 }
 
 .botoes > p {
   text-align: center;
   font-family: bubbleShine;
-  font-size: 22px;
+  font-size: 18px;
   margin: 4%;
 }
 
@@ -88,23 +124,25 @@ body{
 .container{
   border: 2px solid;
   display: flex;
-  align-items: center;
-  margin-left: 16%;
-  margin-right: 19.5%;
   padding-left: 0;
-  padding-right: 0;
+  padding-right: 0px;
   background-color: #fff677;
   border-radius: 2%;
+  flex-direction: row;
+justify-content: center;
+align-items: center;
 }
 
 .slider {
   -webkit-appearance: none;
-  width: 95%;
+  width: 90%;
   height: 12px;
   background: white;
   outline: none;
   border: 3px solid black;
   border-radius: 8px;
+  align-items: center;
+  
 }
 
 .slider::-webkit-slider-thumb {
@@ -120,19 +158,21 @@ body{
 
 .botao {
   background: url("eraser-solid.svg");
-  height: 60px;
-  width: 60px;
+  height: 35px;
+  width: 35px;
   border: white;
   align-items: center;
   margin-left: 35%;
+  margin-bottom: 0.5%;
+  cursor: pointer;
 }
 
 #rosa{
 background:    #ff1493;
 border:        1px solid black;
 border-radius: 5px;
-width:         35px;
-height:        35px;
+width:         25px;
+height:        25px;
 color:         #ff1493;
 display:       inline-block;
 text-align:    center;
@@ -143,8 +183,8 @@ margin: 3px;
   background:    black;
   border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:         black;
   display:       inline-block;
   text-align:    center;
@@ -154,8 +194,8 @@ margin: 3px;
   background:    #808080;
   border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:         #808080;
   display:       inline-block;
   text-align:    center;
@@ -165,8 +205,8 @@ margin: 3px;
   background:    white;
   border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:         white;
   display:       inline-block;
   text-align:    center;
@@ -176,8 +216,8 @@ margin: 3px;
   background:    #A020F0;
 border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:         #A020F0;
   display:       inline-block;
   text-align:    center;
@@ -188,8 +228,8 @@ border:        1px solid black;
   background:    #0000FF;
   border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:         #0000FF;
   display:       inline-block;
   text-align:    center;
@@ -199,8 +239,8 @@ border:        1px solid black;
   background:    #4B0082;
   border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:         #4B0082;
   display:       inline-block;
   text-align:    center;
@@ -211,8 +251,8 @@ border:        1px solid black;
   background:    #00BFFF;
   border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:         #00BFFF;
   display:       inline-block;
   text-align:    center;
@@ -222,8 +262,8 @@ border:        1px solid black;
   background:    #FF69B4;
   border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:         #FF69B4;
   display:       inline-block;
   text-align:    center;
@@ -233,8 +273,8 @@ border:        1px solid black;
   background:    #FF0000;
   border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:        #FF0000;
   display:       inline-block;
   text-align:    center;
@@ -245,8 +285,8 @@ border:        1px solid black;
   background:    #FF8C00;
   border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:         #FF8C00;
   display:       inline-block;
   text-align:    center;
@@ -255,8 +295,8 @@ border:        1px solid black;
   background:    #FFFF00;
   border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:         #FFFF00;
   display:       inline-block;
   text-align:    center;
@@ -266,8 +306,8 @@ border:        1px solid black;
   background:    #A52A2A;
   border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:         #A52A2A;
   display:       inline-block;
   text-align:    center;
@@ -278,8 +318,8 @@ border:        1px solid black;
   background:    #228B22;
   border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:         #228B22;
   display:       inline-block;
   text-align:    center;
@@ -290,8 +330,8 @@ border:        1px solid black;
   background:    #90EE90;
   border:        1px solid black;
   border-radius: 5px;
-  width:         35px;
-  height:        35px;
+  width:         25px;
+height:        25px;
   color:         #90EE90;
   display:       inline-block;
   text-align:    center;

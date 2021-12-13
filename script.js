@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     //definindo altura e largura
-    tela.width = 750;
-    tela.height = 550;
+    tela.width = 600;
+    tela.height = 400;
 
 
     var espessura = document.getElementById("espessura");
